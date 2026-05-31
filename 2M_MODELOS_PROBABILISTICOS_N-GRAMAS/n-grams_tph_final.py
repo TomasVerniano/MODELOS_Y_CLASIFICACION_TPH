@@ -7,7 +7,7 @@ import pandas as pd
 
 def ingresarCorpus(txt):
     #Carga corpus en la misma carpeta (o poner direccion):
-    with open(txt,"r", encoding="utf-8") as f:
+    with open(txt,"r") as f:
         corpus = f.read()
     return corpus
 
